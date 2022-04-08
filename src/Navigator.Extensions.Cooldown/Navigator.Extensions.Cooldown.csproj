@@ -2,8 +2,24 @@
 
     <PropertyGroup>
         <TargetFramework>net6.0</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
+        <ImplicitUsings>true</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <Title>Navigator.Extensions.Cooldown</Title>
+        <Authors>Lucas Maximiliano Marino</Authors>
+        <Description>Specify the cooldown for an action to be triggered again with ease</Description>
+        <PackageProjectUrl>https://github.com/navigatorframework/navigator.extensions.cooldown</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/navigatorframework/navigator.extensions.cooldown</RepositoryUrl>
+        <PackageIconUrl>https://raw.githubusercontent.com/navigatorframework/navigator/master/assets/logo.png</PackageIconUrl>
+        <PackageTags>Cooldown, Bot, Extension, Navigator</PackageTags>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <PackageLicenseExpression>AGPL-3.0-only</PackageLicenseExpression>
+        <Copyright>Copyright © Lucas Maximiliano Marino 2022</Copyright>
     </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="Incremental.Common.Random" Version="1.2.0" />
+        <PackageReference Include="Navigator" Version="1.9.2-beta1" />
+    </ItemGroup>
 
 </Project>
