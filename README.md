@@ -12,7 +12,7 @@ builder.Services
     {
         ...
     })
-    .WithExtension.Probabilities();
+    .WithExtension.Cooldown();
 
 var app = builder.Build();
 
