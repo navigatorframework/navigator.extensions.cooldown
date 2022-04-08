@@ -21,7 +21,7 @@ var app = builder.Build();
 
 ## License
 
-Navigator Extensions Probabilities
+Navigator.Extensions.Cooldown
 Copyright (C) 2019-2021  [Lucas Maximiliano Marino](https://lucasmarino.me)
 
 This program is free software: you can redistribute it and/or modify
